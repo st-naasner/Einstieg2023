@@ -52,7 +52,8 @@ public class BilderwandControler {
 
     @FXML
     void anzeigenNaasner(ActionEvent event) {
-    	
+    	Image bildNaasner = new Image("./Bilder/naasner.jpg");
+    	imBild.setImage(bildNaasner);
     }
 
 }
