@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BilderwandControler">
+<AnchorPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BilderwandControler">
    <children>
       <AnchorPane layoutX="-14.0" layoutY="-3.0" prefHeight="466.0" prefWidth="630.0">
          <children>
@@ -28,7 +28,7 @@
             <Button fx:id="btNiclas" layoutX="141.0" layoutY="237.0" mnemonicParsing="false" text="Niclas" />
             <Button fx:id="btLinas" layoutX="141.0" layoutY="268.0" mnemonicParsing="false" text="Linas" />
             <Button fx:id="btKilian" layoutX="141.0" layoutY="301.0" mnemonicParsing="false" text="Kilian" />
-            <Button fx:id="btMagnus" layoutX="442.0" layoutY="202.0" mnemonicParsing="false" text="Magnus" />
+            <Button fx:id="btMagnus" layoutX="442.0" layoutY="202.0" mnemonicParsing="false" onAction="#anzeigenMagnus" text="Magnus" />
             <Button fx:id="btNicolas" layoutX="442.0" layoutY="233.0" mnemonicParsing="false" text="Nicolas" />
             <Button fx:id="btMohanad" layoutX="442.0" layoutY="264.0" mnemonicParsing="false" text="Mohanad" />
             <Button fx:id="btBoris" layoutX="443.0" layoutY="295.0" mnemonicParsing="false" text="Boris" />

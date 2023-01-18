@@ -55,6 +55,7 @@ public class BilderwandControler {
     	Image bildNaasner = new Image("./Bilder/naasner.jpg");
     	imBild.setImage(bildNaasner);
     }
+    @FXML
     void anzeigenMagnus(ActionEvent event) {
     	Image bildmagnus = new Image("./Bilder/magnus.jpg");
     	imBild.setImage(bildmagnus);
