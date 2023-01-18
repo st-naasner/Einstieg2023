@@ -60,6 +60,12 @@ public class BilderwandControler {
     void anzeigenNiclas(ActionEvent event) {
     	Image bildNiclas = new Image("./Bilder/Niclas-bild.jpg");
     	imBild.setImage(bildNiclas);
+	}
+	
+    @FXML
+    void anzeigenNico(ActionEvent event) {
+    	Image bildNico = new Image("./Bilder/Nico.jpg");
+    	imBild.setImage(bildNico);
     }
 
 }
