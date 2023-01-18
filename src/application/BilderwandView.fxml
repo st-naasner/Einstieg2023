@@ -25,11 +25,16 @@
             <Button fx:id="btfarid" layoutX="141.0" layoutY="141.0" mnemonicParsing="false" text="Farid" />
             <Button fx:id="btJustin" layoutX="141.0" layoutY="173.0" mnemonicParsing="false" text="Justin" />
             <Button fx:id="btBatu" layoutX="141.0" layoutY="207.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="43.0" text="Batu" />
-            <Button fx:id="btNiclas" layoutX="141.0" layoutY="237.0" mnemonicParsing="false" text="Niclas" />
+            <Button fx:id="btNiclas" layoutX="141.0" layoutY="237.0" mnemonicParsing="false" onAction="#anzeigenNiclas" text="Niclas" />
             <Button fx:id="btLinas" layoutX="141.0" layoutY="268.0" mnemonicParsing="false" text="Linas" />
             <Button fx:id="btKilian" layoutX="141.0" layoutY="301.0" mnemonicParsing="false" text="Kilian" />
+
             <Button fx:id="btMagnus" layoutX="442.0" layoutY="202.0" mnemonicParsing="false" onAction="#anzeigenMagnus" text="Magnus" />
             <Button fx:id="btNicolas" layoutX="442.0" layoutY="233.0" mnemonicParsing="false" text="Nicolas" />
+
+            <Button fx:id="btMagnus" layoutX="442.0" layoutY="202.0" mnemonicParsing="false" text="Magnus" />
+            <Button fx:id="btNicolas" layoutX="442.0" layoutY="233.0" mnemonicParsing="false" onAction="#anzeigenNico" text="Nicolas" />
+
             <Button fx:id="btMohanad" layoutX="442.0" layoutY="264.0" mnemonicParsing="false" text="Mohanad" />
             <Button fx:id="btBoris" layoutX="443.0" layoutY="295.0" mnemonicParsing="false" text="Boris" />
             <Button fx:id="btDaniel" layoutX="441.0" layoutY="141.0" mnemonicParsing="false" text="Daniel" />
