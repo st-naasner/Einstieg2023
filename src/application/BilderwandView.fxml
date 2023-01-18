@@ -7,9 +7,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BilderwandControler">
+<AnchorPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BilderwandControler">
    <children>
-      <AnchorPane layoutX="-14.0" layoutY="-3.0" prefHeight="466.0" prefWidth="630.0">
+      <AnchorPane layoutX="-14.0" layoutY="-17.0" prefHeight="466.0" prefWidth="630.0">
          <children>
             <Label layoutX="75.0" layoutY="24.0" text="Leistungskurs Technische Informatik" textFill="#c62828">
                <font>
@@ -17,14 +17,14 @@
                </font>
             </Label>
             <Button fx:id="btNaasner" layoutX="255.0" layoutY="350.0" mnemonicParsing="false" onAction="#anzeigenNaasner" text="Lehrer: Steffen Naasner" />
-            <ImageView fx:id="imBild" fitHeight="202.0" fitWidth="211.0" layoutX="229.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imBild" fitHeight="202.0" fitWidth="211.0" layoutX="229.0" layoutY="127.0" onDragDetected="#anzeigenBatu" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Bilder/mensch.jpg" />
                </image>
             </ImageView>
             <Button fx:id="btfarid" layoutX="141.0" layoutY="141.0" mnemonicParsing="false" text="Farid" />
             <Button fx:id="btJustin" layoutX="141.0" layoutY="173.0" mnemonicParsing="false" text="Justin" />
-            <Button fx:id="btBatu" layoutX="141.0" layoutY="207.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="43.0" text="Batu" />
+            <Button fx:id="btBatu" layoutX="141.0" layoutY="207.0" mnemonicParsing="false" onAction="#anzeigenBatu" prefHeight="25.0" prefWidth="43.0" text="Batu" />
             <Button fx:id="btNiclas" layoutX="141.0" layoutY="237.0" mnemonicParsing="false" text="Niclas" />
             <Button fx:id="btLinas" layoutX="141.0" layoutY="268.0" mnemonicParsing="false" text="Linas" />
             <Button fx:id="btKilian" layoutX="141.0" layoutY="301.0" mnemonicParsing="false" text="Kilian" />
