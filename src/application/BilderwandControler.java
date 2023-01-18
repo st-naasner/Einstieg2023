@@ -55,5 +55,11 @@ public class BilderwandControler {
     	Image bildNaasner = new Image("./Bilder/naasner.jpg");
     	imBild.setImage(bildNaasner);
     }
-
+    @FXML
+    void anzeigenTim(ActionEvent event) 
+    {
+    	Image bildTim = new Image("./Bilder/Tim.jpg");    
+    	imBild.setImage(bildTim);
+    }
+    
 }
