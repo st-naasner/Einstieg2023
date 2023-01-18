@@ -1,3 +1,4 @@
+
 package application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -49,6 +50,18 @@ public class BilderwandControler {
 
     @FXML
     private ImageView imBild;
+
+    @FXML
+    void anzeigenNaasner(ActionEvent event) {
+    	Image bildNaasner = new Image("./Bilder/naasner.jpg");
+    	imBild.setImage(bildNaasner);
+    }
+    
+    @FXML
+    void anzeigenBatu(ActionEvent event) {
+    	Image bildBatu = new Image("./Bilder/Batu.jpg");
+    	imBild.setImage(bildBatu);
+        }
 
     @FXML
     void anzeigenNaasner(ActionEvent event) {
