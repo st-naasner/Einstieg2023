@@ -55,5 +55,9 @@ public class BilderwandControler {
     	Image bildNaasner = new Image("./Bilder/naasner.jpg");
     	imBild.setImage(bildNaasner);
     }
+    void anzeigenNico(ActionEvent event) {
+    	Image bildNico = new Image("./Bilder/Nico.jpg");
+    	imBild.setImage(bildNico);
+    }
 
 }
