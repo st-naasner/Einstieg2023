@@ -48,6 +48,7 @@ public class BilderwandControler {
     private Button btfarid;
     @FXML
     private ImageView imBild;
+    
     @FXML
     void anzeigenFarid(ActionEvent event) {
     	Image bildFarid = new Image("./Bilder/farid.jpg");
