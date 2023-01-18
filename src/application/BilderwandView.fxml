@@ -32,7 +32,7 @@
             <Button fx:id="btMagnus" layoutX="442.0" layoutY="202.0" mnemonicParsing="false" onAction="#anzeigenMagnus" text="Magnus" />
             <Button fx:id="btNicolas" layoutX="442.0" layoutY="233.0" mnemonicParsing="false" text="Nicolas" />
 
-            <Button fx:id="btMagnus" layoutX="442.0" layoutY="202.0" mnemonicParsing="false" text="Magnus" />
+            <Button fx:id="btMagnus" layoutX="442.0" layoutY="202.0" mnemonicParsing="false" onAction="#anzeigenMagnus" text="Magnus" />
             <Button fx:id="btNicolas" layoutX="442.0" layoutY="233.0" mnemonicParsing="false" onAction="#anzeigenNico" text="Nicolas" />
 
             <Button fx:id="btMohanad" layoutX="442.0" layoutY="264.0" mnemonicParsing="false" text="Mohanad" />
