@@ -11,21 +11,21 @@ import javafx.scene.layout.AnchorPane;
 
 
 public class BilderwandAufgabe extends Application {
-	 private Stage 		bühne;
+	 private Stage 		buehne;
 	   private AnchorPane 	grundPane;
 
 	   @Override
 	   public void start(Stage pPrimaryStage) throws IOException
 	   {
-	       this.bühne = pPrimaryStage;
+	       this.buehne = pPrimaryStage;
 	       FXMLLoader lLoader = new FXMLLoader();
 
 	       lLoader.setLocation(BilderwandAufgabe.class.getResource("BilderwandView.fxml"));
 	       grundPane = lLoader.load();
 
 	       Scene lScene = new Scene(grundPane);
-	       bühne.setScene(lScene);
-	       bühne.show();
+	       buehne.setScene(lScene);
+	       buehne.show();
 	   }
 	
 	public static void main(String[] args) {
